@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # What is Matplotlib?
     
     Matplotlib is a low level graph plotting library in python that serves as a visualization utility.
@@ -42,7 +41,4 @@
     ypoints = np.array([3, 10])
     plt.plot(xpoints, ypoints)
     plt.show()
-=======
-# Matplotlib
-Matplotlib library Pratice
->>>>>>> 832805bf0846c554b9868bc582133f1198b2148c
+
