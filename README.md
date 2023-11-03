@@ -42,3 +42,58 @@
     plt.plot(xpoints, ypoints)
     plt.show()
 
+### Plotting Without Line 
+
+    xpoints1 = np.array([1, 8])
+    ypoints1 = np.array([3, 10])
+
+    plt.plot(xpoints1, ypoints1, '*')       # In bracket we can mention in symbol
+    plt.show()
+
+   ### Multiple Points
+
+    xpoints2 = np.array([1, 2, 6, 8])
+    ypoints2 = np.array([3, 8, 1, 10])
+
+    plt.plot(xpoints2, ypoints2)
+    plt.show()
+
+
+   ### Default X-Points
+    Bydefault x value will takes as 0,1,2,3...etc or depend upon y value
+    ypoints3 = np.array([3, 8, 1, 10, 7])
+
+    plt.plot(ypoints3)
+    plt.show()
+
+# Marker
+You can use the keyword argument marker to emphasize each point with a specified marker:
+It will point the coordinates  (https://www.w3schools.com/python/matplotlib_markers.asp)
+    plt.plot(ypoints,marker="o")
+    plt.show()
+
+### "Marker | Line | Color "
+    ypoints1 = np.array([3, 8, 1, 10])
+    plt.plot(ypoints1, 'o:r')       ## here o means coordinate symble, : means dotted, r means red color
+    plt.show()
+
+### Marker Size
+    ypoints2 = np.array([3, 8, 1, 10])
+    plt.plot(ypoints2, marker = 'o', ms = 20)
+    plt.show()
+
+### Marker Color   
+#### Marker Edge Color
+    ypoints3 = np.array([3, 8, 1, 10])
+    plt.title("Marker Edge Color Red ")
+    plt.plot(ypoints3, marker = 'o', ms = 20, mec = 'r')  #mec -> marker edge color
+    plt.show()
+
+#### Marker Face Color
+    ypoints = np.array([3, 8, 1, 10])
+    plt.plot(ypoints, marker = 'o', ms = 20, mfc = 'y')
+    plt.show()
+
+# Marker | Size | Edge Color | Face Color
+    plt.plot(ypoints, marker = 'o', ms = 20, mec = 'hotpink', mfc = 'hotpink')
+    plt.show()
