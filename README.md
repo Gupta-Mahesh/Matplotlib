@@ -68,7 +68,8 @@
 
 # Marker
 You can use the keyword argument marker to emphasize each point with a specified marker:
-It will point the coordinates  (https://www.w3schools.com/python/matplotlib_markers.asp)
+It will point the coordinates(https://www.w3schools.com/python/matplotlib_markers.asp)
+
     plt.plot(ypoints,marker="o")
     plt.show()
 
