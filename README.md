@@ -95,6 +95,6 @@ It will point the coordinates(https://www.w3schools.com/python/matplotlib_marker
     plt.plot(ypoints, marker = 'o', ms = 20, mfc = 'y')
     plt.show()
 
-# Marker | Size | Edge Color | Face Color
+#### Marker | Size | Edge Color | Face Color
     plt.plot(ypoints, marker = 'o', ms = 20, mec = 'hotpink', mfc = 'hotpink')
     plt.show()
